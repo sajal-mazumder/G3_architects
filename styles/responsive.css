@@ -1,0 +1,11 @@
+/* navbar responsive  */
+@media screen and (max-width: 576px) {
+    .navbar, .nav_ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner_description{
+        max-width: 95%;
+    }
+}
