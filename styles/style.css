@@ -17,12 +17,30 @@
     display: flex;
 }
 
+
+
+
+
+
+.primary_btn{
+    background-color: orange;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+}
+.primary_btn a{
+    color: white;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
 /* header styles */
 .header_section{
     background-color: antiquewhite;
     max-width: 1440px;
     margin: 0 auto;
-    height: 400px;
+    /* height: 400px; */
 }
 
 /* navbar styles */
@@ -30,6 +48,7 @@
     justify-content: space-between;
     padding-top: 20px;
     margin: 0 40px;
+    margin-bottom: 50px;
 }
 .nav_ul{
     justify-content: space-around;
@@ -40,5 +59,33 @@
 }
 .nav_link{
     text-decoration: none;
+}
+
+/* banner section */
+.banner_section{
+    max-width: 860px;
+    margin: 0 auto;
+
+}
+
+.banner_description{
+    max-width: 450px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    text-align: center;
+    /* line-height: 50px; */
+}
+.banner_h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.banner_p{
+    margin-bottom: 20px;
+}
+.banner_img{
+    width: 100%;
+    margin-bottom: 30px;
 }
 
