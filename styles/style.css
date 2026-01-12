@@ -23,9 +23,13 @@
 .color_drk_gray{
     color: darkgray;
 }
-
-
-
+main{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+main>section{
+    margin-top: 100px;
+}
 
 .primary_btn{
     background-color: orange;
@@ -94,9 +98,45 @@
 
 .banner_p{
     margin-bottom: 20px;
+    line-height: 20px;
 }
 .banner_img{
     width: 100%;
     margin-bottom: 30px;
 }
 
+/* teams image and our features section */
+
+.teams{
+    /* background-color: aqua; */
+    align-items: center;
+    gap: 50px;
+}
+.teams_img_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+.our_features{
+    max-width: 550px;
+
+}
+.quick{
+    font-size: 3rem;
+    font-weight: 500;
+     margin-bottom: 20px;
+}
+#of_our{
+    color: black;
+    font-weight: 700;
+}
+#feature{
+    color: orange;
+    font-weight: 700;
+   
+}
+.feature_p{
+    text-align: justify;
+    padding: 0 20px 20px 0;
+}
