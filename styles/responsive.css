@@ -19,6 +19,12 @@
    .our_features{
     margin-left: 10px;
    }
+   /* fact card responsiveness */
+   .fact_container{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 20px;
+   }
 }
 
 
@@ -28,4 +34,9 @@
     .teams{
         flex-direction: column;
     }
+    .fact_container{
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+   }
 }
