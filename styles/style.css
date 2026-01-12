@@ -10,3 +10,35 @@
 .work_font{
     font-family: Work sans , sans-serif;
 }
+
+/* shared styles */
+
+.dis_flex{
+    display: flex;
+}
+
+/* header styles */
+.header_section{
+    background-color: antiquewhite;
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 400px;
+}
+
+/* navbar styles */
+.navbar{
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 0 40px;
+}
+.nav_ul{
+    justify-content: space-around;
+}
+.nav_item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav_link{
+    text-decoration: none;
+}
+
