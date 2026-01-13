@@ -19,6 +19,17 @@
    .our_features{
     margin-left: 10px;
    }
+   /* love and enjoy responsiveness */
+   .love_and_enjoy{
+    flex-direction: column;
+   }
+   .left_content{
+    padding: 10px;
+   }
+   .right_side_img .primary_btn{
+    margin-top: 20px;
+    margin-left: 95px;
+   }
    /* fact card responsiveness */
    .fact_container{
     grid-template-columns: repeat(1, 1fr);
@@ -46,4 +57,15 @@
     max-width: 100%;
     justify-items: center;
    }
+   /* love and enjoy section */
+   .love_and_enjoy{
+    flex-direction: column;
+   }
+   .right_side_img .primary_btn{
+    margin-top: 20px;
+    margin-left: 250px;
+   }
+   /* .right_side_img img{
+    width: 100%;
+   } */
 }

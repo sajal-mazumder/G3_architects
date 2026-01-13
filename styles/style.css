@@ -182,7 +182,7 @@ main>section{
 .right_side_img img{
     width: 100%;
 }
-.primary_btn{
+.right_side_img .primary_btn{
     margin-top: -100px;
     margin-left: -60px;
 }
