@@ -234,3 +234,22 @@ main>section{
     font-weight: 500;
     font-size: 1.2em;
 }
+
+/* sponsor section */
+.sponsor_content{
+    text-align: center;
+    margin: 70px auto;
+}
+.sponsor_content h2{
+    font-size: 2.5rem;
+    margin: 20px auto;
+}
+.sponsor_card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+    justify-items: center;
+}
+.sponsor_img img{
+    filter: grayscale(100%);
+}

@@ -28,7 +28,7 @@
    }
    .right_side_img .primary_btn{
     margin-top: 20px;
-    margin-left: 95px;
+    margin-left: 80px;
    }
    /* fact card responsiveness */
    .fact_container{
@@ -38,6 +38,15 @@
    }
    .fact_content p, h3{
     padding: 0 4px;
+   }
+
+   /* sponsor section */
+   .sponsor_content{
+    padding: 0 10px;
+   }
+   .sponsor_card{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
    }
 }
 
@@ -68,4 +77,13 @@
    /* .right_side_img img{
     width: 100%;
    } */
+
+   /* sponsor section */
+   .sponsor_content{
+    padding: 0 10px;
+   }
+   .sponsor_card{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+   }
 }
