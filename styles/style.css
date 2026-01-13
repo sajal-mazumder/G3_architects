@@ -253,3 +253,15 @@ main>section{
 .sponsor_img img{
     filter: grayscale(100%);
 }
+
+/* footer section */
+
+.footer{
+    background-color: beige;
+    border-radius: 8px;
+    padding: 10px 30px;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+}
