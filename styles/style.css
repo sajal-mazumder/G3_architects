@@ -49,6 +49,9 @@ main>section{
     transition: 1s ease-in-out;
     cursor: pointer;
 }
+.hide{
+    display: none;
+}
 
 /* header styles */
 .header_section{
@@ -154,11 +157,47 @@ main>section{
     padding: 0 20px 20px 0;
 }
 
+/* love and enjoy section */
+
+.love_and_enjoy{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.left_content{
+    max-width: 530px;
+}
+.left_head h2{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.cards_left{
+    margin-top: 40px;
+    box-shadow: 0 4px 20px rgba(114, 113, 113, 0.573);
+    padding: 15px;
+    border-radius: 8px;
+}
+.right_side_img img{
+    width: 100%;
+}
+.primary_btn{
+    margin-top: -100px;
+    margin-left: -60px;
+}
+.primary_btn h2{
+    color: white;
+    font-size: 2.5rem;
+}
+.primary_btn h6{
+    color: white;
+    font-size: 1.25rem;
+}
+
 /* fact card section */
 
-/* .hide{
-    display: none;
-} */
+
 .fact_container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
